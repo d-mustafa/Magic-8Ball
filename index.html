@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic 8-Ball</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Magic 8-Ball</h1>
+    <hr />
+    <p>
+      Type in a yes or no quesiton then "roll" the 8-ball for a
+      <b>magical</b> response!
+    </p>
+    <label for="user-question" style="display: block; font-size: 20px">
+      <b>Your Quesiton:</b>
+    </label>
+    <input type="text" id="user-question" placeholder="" />
+    <p style="text-align: center">
+      <img src="img/8ball.png" alt="8ball" id="8-ball" width="80%" />
+    </p>
+    <p style="font-size: 20px">
+      <b>Response: <span id="output"></span></b>
+    </p>
+    <script defer src="script.js"></script>
+  </body>
+</html>
