@@ -20,10 +20,7 @@ function giveResponse() {
     resposeEl.innerHTML = "Have you tried turning it off and back on again?";
   } else if (inputValue == `do you ever feel like a plastic bag?`) {
     resposeEl.innerHTML = "drifting through the wind, wanting to try again";
-  } else if (
-    inputValue == `whats one plus one` ||
-    inputValue == `whats 1 + 1`
-  ) {
+  } else if (inputValue == `whats one plus one` || inputValue == `whats 1 + 1`) {
     resposeEl.innerHTML = "I dunno. This is an 8-ball, not a calculator!";
   } else if (inputValue == ``) {
     resposeEl.innerHTML = "Please ask a question...";
